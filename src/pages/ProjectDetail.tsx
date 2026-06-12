@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { motion } from 'motion/react';
-import { ChevronRight, ExternalLink, Github, FileText, ArrowLeft, Lightbulb, Target, Rocket, Wrench } from 'lucide-react';
+import { AnimatePresence, motion } from 'motion/react';
+import { ChevronRight, ExternalLink, Github, FileText, ArrowLeft, Lightbulb, Target, Rocket, Wrench, X } from 'lucide-react';
 import { PROJECTS } from '../data';
 import Footer from '../components/Footer';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,6 +14,7 @@ import 'swiper/css/effect-fade';
 export default function ProjectDetail() {
   const { slug } = useParams<{ slug: string }>();
   const project = PROJECTS.find((p) => p.slug === slug);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   if (!project || !project.details) {
     return (
@@ -28,7 +29,7 @@ export default function ProjectDetail() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-50 font-sans selection:bg-blue-500/30 selection:text-blue-200">
-      
+
       {/* 1. Breadcrumb Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800 py-4 px-6 md:px-12">
         <div className="max-w-6xl mx-auto flex items-center text-sm text-slate-400">
@@ -47,7 +48,7 @@ export default function ProjectDetail() {
 
       {/* 2. Project Hero Section */}
       <header className="pt-32 pb-16 px-6 md:px-12 max-w-6xl mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="space-y-6"
@@ -57,11 +58,11 @@ export default function ProjectDetail() {
             <span className="px-3 py-1 bg-slate-800 text-slate-300 rounded-full border border-slate-700">{details.status}</span>
             <span className="px-3 py-1 bg-slate-800 text-slate-300 rounded-full border border-slate-700">{details.duration}</span>
           </div>
-          
+
           <h1 className="text-4xl md:text-6xl font-display font-bold text-white tracking-tight">
             {project.title}
           </h1>
-          
+
           <p className="text-xl text-slate-400 max-w-3xl leading-relaxed">
             {project.description}
           </p>
@@ -71,7 +72,7 @@ export default function ProjectDetail() {
               <p className="text-sm text-slate-500 mb-1">Role</p>
               <p className="font-medium text-slate-300">{details.role}</p>
             </div>
-            
+
             <div className="flex gap-4">
               <a href={project.liveUrl} className="flex items-center gap-2 px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-medium transition-colors">
                 <ExternalLink className="w-4 h-4" />
@@ -92,32 +93,32 @@ export default function ProjectDetail() {
 
       {/* 3. Project Banner */}
       <section className="px-6 md:px-12 max-w-7xl mx-auto pb-24">
-         <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2 }}
-            className="w-full aspect-[21/9] rounded-3xl overflow-hidden shadow-2xl shadow-blue-900/20 border border-slate-800 bg-slate-900 group relative"
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.2 }}
+          className="w-full aspect-[21/9] rounded-3xl overflow-hidden shadow-2xl shadow-blue-900/20 border border-slate-800 bg-slate-900 group relative"
+        >
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay, EffectFade]}
+            effect="fade"
+            navigation
+            pagination={{ clickable: true }}
+            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            loop={true}
+            className="w-full h-full"
           >
-            <Swiper
-              modules={[Navigation, Pagination, Autoplay, EffectFade]}
-              effect="fade"
-              navigation
-              pagination={{ clickable: true }}
-              autoplay={{ delay: 5000, disableOnInteraction: false }}
-              loop={true}
-              className="w-full h-full"
-            >
-              {(details.gallery.length > 0 ? details.gallery : [project.imageUrl]).map((img, idx) => (
-                <SwiperSlide key={idx}>
-                  <img 
-                    src={img} 
-                    alt={`${project.title} screenshot ${idx + 1}`} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-         </motion.div>
+            {(details.gallery.length > 0 ? details.gallery : [project.imageUrl]).map((img, idx) => (
+              <SwiperSlide key={idx}>
+                <img
+                  src={img}
+                  alt={`${project.title} screenshot ${idx + 1}`}
+                  className="w-full h-full object-contain bg-black group-hover:scale-105 transition-transform duration-700"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </motion.div>
       </section>
 
       {/* 4. Project Overview */}
@@ -226,16 +227,16 @@ export default function ProjectDetail() {
       {/* 8. Challenges & Solutions */}
       <section className="py-24 px-6 md:px-12">
         <div className="max-w-4xl mx-auto">
-           <h2 className="text-3xl font-display font-bold text-white mb-16 text-center">
+          <h2 className="text-3xl font-display font-bold text-white mb-16 text-center">
             Challenges & Solutions
           </h2>
           <div className="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-[8.5rem] md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-800 before:to-transparent">
             {details.challenges.map((item, idx) => (
               <div key={idx} className="relative flex items-start justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                 <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-slate-950 bg-slate-800 text-slate-400 group-[.is-active]:text-blue-500 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                   <Lightbulb className="w-4 h-4" />
+                  <Lightbulb className="w-4 h-4" />
                 </div>
-                
+
                 <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-slate-800/40 border border-slate-700/50">
                   <div className="mb-4">
                     <span className="text-xs font-bold uppercase text-rose-400 block mb-1">Challenge</span>
@@ -262,7 +263,16 @@ export default function ProjectDetail() {
           <h2 className="text-3xl font-display font-bold text-white mb-12">Project Gallery</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {details.gallery.map((img, idx) => (
-              <div key={idx} className="aspect-video rounded-xl overflow-hidden border border-slate-800 group">
+              <div
+                key={idx}
+                className="aspect-video rounded-xl overflow-hidden border border-slate-800 group cursor-pointer relative"
+                onClick={() => setSelectedImage(img)}
+              >
+                <div className="absolute inset-0 bg-blue-500/0 group-hover:bg-blue-500/10 transition-colors z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                  <div className="bg-slate-900/80 p-3 rounded-full text-white backdrop-blur-sm">
+                    <Target className="w-5 h-5" />
+                  </div>
+                </div>
                 <img src={img} alt={`Gallery ${idx + 1}`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
@@ -273,20 +283,21 @@ export default function ProjectDetail() {
       {/* 10. Results & Impact */}
       <section className="py-24 px-6 md:px-12 max-w-6xl mx-auto">
         <div className="text-center mb-16">
-           <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-6 flex items-center justify-center gap-3">
-             <Rocket className="w-10 h-10 text-rose-400" />
-             Results & Impact
-           </h2>
-           <p className="text-slate-400 text-lg max-w-2xl mx-auto">Measurable outcomes from the implementation of modern frontend practices.</p>
+          <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-6 flex items-center justify-center gap-3">
+            <Rocket className="w-10 h-10 text-rose-400" />
+            Results & Impact
+          </h2>
+          <p className="text-slate-400 text-lg max-w-2xl mx-auto">Measurable outcomes from the implementation of modern frontend practices.</p>
         </div>
-        
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
           {details.results.map((res, i) => (
             <div key={i} className="bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center flex flex-col items-center justify-center">
               <div className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 mb-2">
                 {res.value}
               </div>
               <div className="text-slate-500 font-medium">{res.metric}</div>
+              <p className="text-slate-500 font-normal">{res.description}</p>
             </div>
           ))}
         </div>
@@ -316,9 +327,9 @@ export default function ProjectDetail() {
                 <div className="relative h-48 overflow-hidden shrink-0">
                   <Link to={`/projects/${p.slug}`} className="absolute inset-0 z-20" />
                   <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors z-10 pointer-events-none" />
-                  <img 
-                    src={p.imageUrl} 
-                    alt={p.title} 
+                  <img
+                    src={p.imageUrl}
+                    alt={p.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -350,6 +361,36 @@ export default function ProjectDetail() {
           </Link>
         </div>
       </section>
+
+
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-950/90 backdrop-blur-sm p-4 md:p-12 cursor-zoom-out"
+            onClick={() => setSelectedImage(null)}
+          >
+            <button
+              className="absolute top-6 right-6 p-2 bg-slate-800 hover:bg-slate-700 text-white rounded-full transition-colors z-[101]"
+              onClick={(e) => { e.stopPropagation(); setSelectedImage(null); }}
+            >
+              <X className="w-6 h-6" />
+            </button>
+            <motion.img
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              transition={{ type: "spring", damping: 25, stiffness: 300 }}
+              src={selectedImage}
+              alt="Zoomed gallery view"
+              className="max-w-full max-h-full object-contain rounded-xl shadow-2xl cursor-default"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <Footer />
     </div>

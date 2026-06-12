@@ -80,7 +80,7 @@ export const PROJECTS: Project[] = [
     title: 'Online Security Training Dashboard',
     description: 'Developed a responsive admin dashboard for an online security training platform, enabling course management, student enrollment tracking, support ticket handling, financial analytics, and real-time performance monitoring. Built with a focus on usability, scalability, and data-driven decision making. As well as developed a real-time virtual classroom experience using Zoom Video SDK and Firebase, enabling instructors and students to join live training sessions, communicate through class chat, manage attendance, and handle classroom interactions seamlessly within a secure online learning environment.',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Redux', 'Node.js'],
-    imageUrl: 'https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=2070&auto=format&fit=crop',
+    imageUrl: '/assets/images/dashboard.png',
     liveUrl: '#',
     githubUrl: '#',
     details: {
@@ -91,8 +91,14 @@ export const PROJECTS: Project[] = [
       status: 'Completed',
       overview: {
         problem: 'The training organization needed a centralized platform to manage courses, track student progress, handle support requests, and monitor financial performance. Existing processes were fragmented across multiple tools, making reporting and administration inefficient.',
-        requirements: ['Manage online security training courses and student enrollments.', 'Enable administrators to manage classes, certifications, and training records.', 'Support role-based access for administrators, instructors, support agents, and students.', 'Generate financial reports for payments, refunds, and revenue tracking.'],
-        goals: ['Centralize training operations into a single management platform.', 'Improve visibility into student progress and course completion rates.', 'Reduce administrative effort through automated reporting and analytics.', 'Enhance support efficiency with integrated ticketing and live chat systems.'],
+        requirements: [
+          'Manage online security training courses and student enrollments.', 'Enable administrators to manage classes, certifications, and training records.', 'Support role-based access for administrators, instructors, support agents, and students.', 'Generate financial reports for payments, refunds, and revenue tracking.',
+          'Conduct instructor-led security training sessions online.', 'Support real-time communication between instructors and students.', 'Track attendance and participation during live classes.', 'Enable seamless handling of student re-entry and late join requests.'
+        ],
+        goals: [
+          'Centralize training operations into a single management platform.', 'Improve visibility into student progress and course completion rates.', 'Reduce administrative effort through automated reporting and analytics.', 'Enhance support efficiency with integrated ticketing and live chat systems.',
+          'Replace traditional classroom interactions with a digital learning environment.', 'Improve student engagement through real-time communication.', 'Reduce administrative effort in attendance tracking.', 'Deliver a seamless virtual training experience.', 'Increase accessibility for remote learners.'
+        ],
         scope: 'The project included course management, student enrollment tracking, analytics dashboards, support ticket handling, live chat monitoring, financial reporting, and role-based access control.',
       },
       contributions: [
@@ -101,7 +107,13 @@ export const PROJECTS: Project[] = [
         'State Management',
         'Performance Optimization',
         'Responsive Design',
-        'Code Architecture'
+        'Code Architecture',
+        'Integrated Zoom Video SDK and Zoom Video SDK UI Toolkit.',
+        'Implemented session joining and meeting management workflows.',
+        'Developed real-time classroom chat functionality using Firebase.',
+        'Built lesson scheduling and progress tracking interfaces.',
+        'Created responsive UI components for virtual classroom management.',
+        'Optimized real-time data synchronization and user experience.'
       ],
       techStackCategories: [
         {
@@ -130,7 +142,10 @@ export const PROJECTS: Project[] = [
         { title: 'Real-Time Class Chat', description: 'Enable instant communication between instructors and students through live classroom messaging.' },
         { title: 'Attendance Tracking', description: 'Monitor participant join and leave activities automatically during live sessions.' },
         { title: 'Lesson Management', description: 'Display scheduled lessons, session durations, completion status, and learning progress.' },
-        { title: 'Lesson Management', description: 'Display scheduled lessons, session durations, completion status, and learning progress.' },
+        { title: 'Re-Entry Requests', description: 'Allow students to request rejoining sessions after disconnections or accidental exits.' },
+        { title: 'Late Join Requests', description: 'Manage late attendance requests with instructor approval workflows.' },
+        { title: 'Firebase Real-Time Updates', description: 'Synchronize classroom activities instantly across all participants using Firebase.' },
+        { title: 'Responsive Learning Experience', description: 'Deliver a consistent classroom experience across desktop and mobile devices.' },
       ],
       challenges: [
         {
@@ -139,20 +154,31 @@ export const PROJECTS: Project[] = [
           result: 'Improved dashboard performance and reduced page load times.'
         },
         {
-          challenge: 'Complex state synchronization across multiple tabs.',
-          solution: 'Utilized Broadcast Channel API and React Query for cross-tab state syncing.',
-          result: 'Users experience real-time updates without manual refreshes.'
+          challenge: 'Managing real-time classroom interactions without page refreshes.',
+          solution: 'Integrated Firebase Realtime Database to synchronize chat messages, attendance updates, and classroom events instantly.',
+          result: 'Delivered a smooth real-time learning experience for instructors and students.'
+        },
+        {
+          challenge: 'Embedding a video conferencing solution directly into the learning platform.',
+          solution: 'Integrated Zoom Video SDK and UI Toolkit to provide native video meeting capabilities within the application.',
+          result: 'Enabled seamless live training sessions without requiring users to leave the platform.'
+        },
+        {
+          challenge: 'Ensuring smooth performance for large lists of chat messages',
+          solution: 'implemented react-virtuoso (<Virtuoso />) to efficiently render long, dynamic lists (such as chat messages) using virtualized scrolling for better performance and reduced memory usage.',
+          result: 'optimized performance even under heavy chat activity.'
         }
       ],
       gallery: [
-        'https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=2070&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop'
+        '/assets/images/dashboard.png',
+        '/assets/images/students.png',
+        '/assets/images/active-courses.png',
+        '/assets/images/course-detail.png',
       ],
       results: [
-        { metric: 'Performance', value: '+40%' },
-        { metric: 'Load Time', value: '< 1.2s' },
-        { metric: 'User Engagement', value: '+25%' },
+        { metric: 'Real-Time Responsiveness', value: '+60%', description: 'Instant updates for chat, attendance, and classroom events without page refreshes.' },
+        { metric: 'UI Interaction Latency', value: '< 1.5s', description: 'Optimized rendering of large chat and activity lists using virtualization (react-virtuoso).' },
+        { metric: 'Support & Manual Tracking Effort', value: '-50%', description: 'Reduced administrative workload through automated attendance and activity tracking.' }
       ],
       lessonsLearned: [
         'Advanced React rendering optimization techniques.',
