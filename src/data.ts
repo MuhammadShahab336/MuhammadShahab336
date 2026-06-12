@@ -35,16 +35,20 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 export const EXPERIENCES: Experience[] = [
   {
     id: 'exp-1',
-    role: 'Senior Frontend Developer',
-    company: 'Tech Innovators',
-    period: '2023 - Present',
+    role: 'Senior Frontend Engineer',
+    company: 'Coderchaps',
+    period: 'Dec 2025 - Present',
     responsibilities: [
-      'Architected and implemented scalable frontend applications using React.js and Next.js.',
-      'Led the migration of legacy applications to modern React architecture, improving performance by 40%.',
-      'Mentored junior developers and conducted code reviews to maintain high code quality standards.',
-      'Collaborated closely with designers and product managers to deliver seamless user experiences.'
+      'Led frontend development of a comprehensive online training platform serving administrators, instructors, and students.',
+      'Developed feature-rich modules including course management, virtual classrooms, support ticket systems, financial dashboards, and reporting tools.',
+      'Integrated Zoom Video SDK and Firebase to deliver real-time communication and interactive learning experiences.',
+      'Built scalable and reusable component libraries that accelerated feature development and improved maintainability.',
+      'Enhanced application performance and user experience through optimized rendering, API handling, and state management strategies.',
+      'Converted complex business requirements into intuitive, responsive, and accessible user interfaces.',
+      'Collaborated cross-functionally with designers, backend engineers, and stakeholders to successfully deliver new product features.',
+      'Mentored team members through code reviews and knowledge sharing while promoting frontend best practices.'
     ],
-    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'React Query'],
+    technologies: ['React.js (Vite)', 'Redux Toolkit', 'React Query', 'Ant Design', 'Firebase', 'Zoom Video SDK', 'Zoom Video SDK UI Toolkit', 'REST APIs', 'Git'],
   },
   {
     id: 'exp-2',

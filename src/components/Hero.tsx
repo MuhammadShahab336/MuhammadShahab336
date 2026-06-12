@@ -43,7 +43,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-lg text-slate-400 max-w-2xl mx-auto"
         >
-          Crafting scalable, high-performance web and mobile applications with over 4 years of experience. Specializing in the React ecosystem, TypeScript, and modern frontend architecture.
+          Crafting scalable, high-performance web and mobile applications with over 4+ years of experience. Specializing in the React ecosystem, TypeScript, and modern frontend architecture.
         </motion.p>
 
         <motion.div 
@@ -59,8 +59,9 @@ export default function Hero() {
             View Projects
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
-          <a 
-            href="#" 
+          <a
+            href="/public\Muhammad_Shahab_CV2.pdf"
+            target="_blank"
             className="w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white rounded-full font-medium transition-all flex items-center justify-center gap-2 group"
           >
             Download Resume
