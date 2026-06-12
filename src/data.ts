@@ -80,7 +80,7 @@ export const PROJECTS: Project[] = [
     title: 'Online Security Training Dashboard',
     description: 'Developed a responsive admin dashboard for an online security training platform, enabling course management, student enrollment tracking, support ticket handling, financial analytics, and real-time performance monitoring. Built with a focus on usability, scalability, and data-driven decision making. As well as developed a real-time virtual classroom experience using Zoom Video SDK and Firebase, enabling instructors and students to join live training sessions, communicate through class chat, manage attendance, and handle classroom interactions seamlessly within a secure online learning environment.',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Redux', 'Node.js'],
-    imageUrl: '/assets/images/dashboard.png',
+    imageUrl: '/images/dashboard.png',
     liveUrl: '#',
     githubUrl: '#',
     details: {
@@ -170,10 +170,10 @@ export const PROJECTS: Project[] = [
         }
       ],
       gallery: [
-        '/assets/images/dashboard.png',
-        '/assets/images/students.png',
-        '/assets/images/active-courses.png',
-        '/assets/images/course-detail.png',
+        '/images/dashboard.png',
+        '/images/students.png',
+        '/images/active-courses.png',
+        '/images/course-detail.png',
       ],
       results: [
         { metric: 'Real-Time Responsiveness', value: '+60%', description: 'Instant updates for chat, attendance, and classroom events without page refreshes.' },
