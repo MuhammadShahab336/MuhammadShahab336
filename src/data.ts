@@ -246,115 +246,115 @@ export const PROJECTS: Project[] = [
       ]
     }
   },
-  {
-    id: 'proj-3',
-    slug: 'finance-tracker-mobile',
-    title: 'Finance Tracker Mobile',
-    description: 'A cross-platform mobile application for personal expense tracking, featuring dynamic charts and budget alerts.',
-    technologies: ['React Native', 'Expo', 'Zustand', 'React Native Reanimated'],
-    imageUrl: 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=2070&auto=format&fit=crop',
-    liveUrl: '#',
-    githubUrl: '#',
-    details: {
-      slug: 'finance-tracker-mobile',
-      category: 'FinTech Mobile Application',
-      duration: '3 Months',
-      role: 'Frontend Developer',
-      status: 'Completed',
-      overview: {
-        problem: 'Users needed a simple, fast, on-the-go way to track their daily expenses and view intuitive summaries without complex banking integrations.',
-        requirements: ['Cross-platform mobile app', 'Offline-first capabilities', 'Smooth animations and charts'],
-        goals: ['Achieve 60fps animations', 'Local storage persistence'],
-        scope: 'Mobile frontend architecture, UI development, and local database integration.',
-      },
-      contributions: [
-        'Mobile UI Development',
-        'State Management',
-        'Animations',
-        'Offline Storage Integration'
-      ],
-      techStackCategories: [
-        { title: 'Mobile', technologies: ['React Native', 'Expo', 'TypeScript'] },
-        { title: 'State & Storage', technologies: ['Zustand', 'AsyncStorage'] },
-        { title: 'Animations & UI', technologies: ['Reanimated', 'Skia'] }
-      ],
-      features: [
-        { title: 'Expense Logging', description: 'Fast, minimal-tap interface for adding expenses.' },
-        { title: 'Interactive Charts', description: 'Monthly summaries visualized with rich, interactive charts.' },
-        { title: 'Budget Alerts', description: 'Custom thresholds that trigger local push notifications.' },
-      ],
-      challenges: [
-        {
-          challenge: 'Rendering complex interactive charts at 60fps on low-end Android devices.',
-          solution: 'Utilized React Native Skia and Reanimated 3 for native-driven UI updates.',
-          result: 'Maintained 60fps across the majority of testing devices.'
-        }
-      ],
-      gallery: [
-        'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=2070&auto=format&fit=crop'
-      ],
-      results: [
-        { metric: 'App Rating', value: '4.8' },
-        { metric: 'Daily Active Users', value: '5k+' },
-      ],
-      lessonsLearned: [
-        'Deep dive into React Native Skia for high-performance graphics.',
-        'Managing offline-first architectures effectively.'
-      ]
-    }
-  },
-  {
-    id: 'proj-4',
-    slug: 'ai-image-generator',
-    title: 'AI Image Generator',
-    description: 'A web interface for generating images from text prompts using AI models, featuring a gallery and prompt history.',
-    technologies: ['React', 'Tailwind CSS', 'React Query', 'REST APIs'],
-    imageUrl: 'https://images.unsplash.com/photo-1620689408018-d65e90d8a417?q=80&w=2070&auto=format&fit=crop',
-    liveUrl: '#',
-    githubUrl: '#',
-    details: {
-      slug: 'ai-image-generator',
-      category: 'AI Tool / Web Application',
-      duration: '2 Months',
-      role: 'Frontend Developer',
-      status: 'Completed',
-      overview: {
-        problem: 'Provides an accessible, consumer-friendly interface to powerful generative AI models.',
-        requirements: ['Real-time generation feedback', 'Gallery of past generations', 'Responsive layout'],
-        goals: ['Sleek, dark-mode focused UI', 'Low latency perceived performance'],
-        scope: 'Frontend UI layout, API integration with third-party AI generation services.',
-      },
-      contributions: [
-        'UI Development',
-        'API Integration',
-        'State Management'
-      ],
-      techStackCategories: [
-        { title: 'Frontend', technologies: ['React.js', 'TypeScript'] },
-        { title: 'State Management', technologies: ['React Query'] },
-        { title: 'UI Libraries', technologies: ['Tailwind CSS', 'Material UI'] }
-      ],
-      features: [
-        { title: 'Text-to-Image Generation', description: 'Clean interface for inputting prompts and selecting visual styles.' },
-        { title: 'History Gallery', description: 'Infinite scrolling gallery of user-generated images.' },
-      ],
-      challenges: [
-        {
-          challenge: 'Handling long polling / streaming responses from AI generation APIs.',
-          solution: 'Implemented robust error handling and loading skeletons while maintaining connection state.',
-          result: 'Smooth user experience during 10-15s generation wait times.'
-        }
-      ],
-      gallery: [
-        'https://images.unsplash.com/photo-1620689408018-d65e90d8a417?q=80&w=2070&auto=format&fit=crop'
-      ],
-      results: [
-        { metric: 'Generations', value: '100k+' },
-      ],
-      lessonsLearned: [
-        'Handling asynchronous, long-running REST API requests.',
-        'Creating engaging loading states.'
-      ]
-    }
-  },
+  // {
+  //   id: 'proj-3',
+  //   slug: 'finance-tracker-mobile',
+  //   title: 'Finance Tracker Mobile',
+  //   description: 'A cross-platform mobile application for personal expense tracking, featuring dynamic charts and budget alerts.',
+  //   technologies: ['React Native', 'Expo', 'Zustand', 'React Native Reanimated'],
+  //   imageUrl: 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=2070&auto=format&fit=crop',
+  //   liveUrl: '#',
+  //   githubUrl: '#',
+  //   details: {
+  //     slug: 'finance-tracker-mobile',
+  //     category: 'FinTech Mobile Application',
+  //     duration: '3 Months',
+  //     role: 'Frontend Developer',
+  //     status: 'Completed',
+  //     overview: {
+  //       problem: 'Users needed a simple, fast, on-the-go way to track their daily expenses and view intuitive summaries without complex banking integrations.',
+  //       requirements: ['Cross-platform mobile app', 'Offline-first capabilities', 'Smooth animations and charts'],
+  //       goals: ['Achieve 60fps animations', 'Local storage persistence'],
+  //       scope: 'Mobile frontend architecture, UI development, and local database integration.',
+  //     },
+  //     contributions: [
+  //       'Mobile UI Development',
+  //       'State Management',
+  //       'Animations',
+  //       'Offline Storage Integration'
+  //     ],
+  //     techStackCategories: [
+  //       { title: 'Mobile', technologies: ['React Native', 'Expo', 'TypeScript'] },
+  //       { title: 'State & Storage', technologies: ['Zustand', 'AsyncStorage'] },
+  //       { title: 'Animations & UI', technologies: ['Reanimated', 'Skia'] }
+  //     ],
+  //     features: [
+  //       { title: 'Expense Logging', description: 'Fast, minimal-tap interface for adding expenses.' },
+  //       { title: 'Interactive Charts', description: 'Monthly summaries visualized with rich, interactive charts.' },
+  //       { title: 'Budget Alerts', description: 'Custom thresholds that trigger local push notifications.' },
+  //     ],
+  //     challenges: [
+  //       {
+  //         challenge: 'Rendering complex interactive charts at 60fps on low-end Android devices.',
+  //         solution: 'Utilized React Native Skia and Reanimated 3 for native-driven UI updates.',
+  //         result: 'Maintained 60fps across the majority of testing devices.'
+  //       }
+  //     ],
+  //     gallery: [
+  //       'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=2070&auto=format&fit=crop'
+  //     ],
+  //     results: [
+  //       { metric: 'App Rating', value: '4.8' },
+  //       { metric: 'Daily Active Users', value: '5k+' },
+  //     ],
+  //     lessonsLearned: [
+  //       'Deep dive into React Native Skia for high-performance graphics.',
+  //       'Managing offline-first architectures effectively.'
+  //     ]
+  //   }
+  // },
+  // {
+  //   id: 'proj-4',
+  //   slug: 'ai-image-generator',
+  //   title: 'AI Image Generator',
+  //   description: 'A web interface for generating images from text prompts using AI models, featuring a gallery and prompt history.',
+  //   technologies: ['React', 'Tailwind CSS', 'React Query', 'REST APIs'],
+  //   imageUrl: 'https://images.unsplash.com/photo-1620689408018-d65e90d8a417?q=80&w=2070&auto=format&fit=crop',
+  //   liveUrl: '#',
+  //   githubUrl: '#',
+  //   details: {
+  //     slug: 'ai-image-generator',
+  //     category: 'AI Tool / Web Application',
+  //     duration: '2 Months',
+  //     role: 'Frontend Developer',
+  //     status: 'Completed',
+  //     overview: {
+  //       problem: 'Provides an accessible, consumer-friendly interface to powerful generative AI models.',
+  //       requirements: ['Real-time generation feedback', 'Gallery of past generations', 'Responsive layout'],
+  //       goals: ['Sleek, dark-mode focused UI', 'Low latency perceived performance'],
+  //       scope: 'Frontend UI layout, API integration with third-party AI generation services.',
+  //     },
+  //     contributions: [
+  //       'UI Development',
+  //       'API Integration',
+  //       'State Management'
+  //     ],
+  //     techStackCategories: [
+  //       { title: 'Frontend', technologies: ['React.js', 'TypeScript'] },
+  //       { title: 'State Management', technologies: ['React Query'] },
+  //       { title: 'UI Libraries', technologies: ['Tailwind CSS', 'Material UI'] }
+  //     ],
+  //     features: [
+  //       { title: 'Text-to-Image Generation', description: 'Clean interface for inputting prompts and selecting visual styles.' },
+  //       { title: 'History Gallery', description: 'Infinite scrolling gallery of user-generated images.' },
+  //     ],
+  //     challenges: [
+  //       {
+  //         challenge: 'Handling long polling / streaming responses from AI generation APIs.',
+  //         solution: 'Implemented robust error handling and loading skeletons while maintaining connection state.',
+  //         result: 'Smooth user experience during 10-15s generation wait times.'
+  //       }
+  //     ],
+  //     gallery: [
+  //       'https://images.unsplash.com/photo-1620689408018-d65e90d8a417?q=80&w=2070&auto=format&fit=crop'
+  //     ],
+  //     results: [
+  //       { metric: 'Generations', value: '100k+' },
+  //     ],
+  //     lessonsLearned: [
+  //       'Handling asynchronous, long-running REST API requests.',
+  //       'Creating engaging loading states.'
+  //     ]
+  //   }
+  // },
 ];
