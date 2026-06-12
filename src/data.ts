@@ -187,65 +187,65 @@ export const PROJECTS: Project[] = [
       ]
     }
   },
-  {
-    id: 'proj-2',
-    slug: 'e-learning-platform',
-    title: 'E-learning Platform',
-    description: 'A comprehensive online learning platform featuring video courses, interactive quizzes, and real-time progress tracking.',
-    technologies: ['Next.js', 'TypeScript', 'Prisma', 'Stripe', 'Framer Motion'],
-    imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop',
-    liveUrl: '#',
-    githubUrl: '#',
-    details: {
-      slug: 'e-learning-platform',
-      category: 'EdTech Web Application',
-      duration: '4 Months',
-      role: 'Senior Frontend Developer',
-      status: 'Completed',
-      overview: {
-        problem: 'The client needed a modern, scalable platform to host their educational content and manage student progress.',
-        requirements: ['Video streaming integration', 'Progress tracking and quiz engine', 'Payment gateway integration'],
-        goals: ['Launch minimum viable product in 4 months', 'Support up to 5k concurrent users', 'Ensure High Accessibility (WCAG 2.1)'],
-        scope: 'Frontend development, UI/UX implementation, checkout flow, and video player customization.',
-      },
-      contributions: [
-        'UI Development',
-        'API Integration',
-        'State Management',
-        'Accessible Design'
-      ],
-      techStackCategories: [
-        { title: 'Frontend', technologies: ['Next.js', 'React.js', 'TypeScript'] },
-        { title: 'State Management', technologies: ['React Query', 'Zustand'] },
-        { title: 'UI Libraries', technologies: ['Tailwind CSS', 'Radix UI'] },
-        { title: 'Tools', technologies: ['Stripe', 'Vercel'] }
-      ],
-      features: [
-        { title: 'Course Player', description: 'Custom video player with bookmarking and speed controls.' },
-        { title: 'Interactive Quizzes', description: 'Real-time grading and detailed feedback.' },
-        { title: 'Student Dashboard', description: 'Analytics on learning progress and certificiations.' },
-      ],
-      challenges: [
-        {
-          challenge: 'Ensuring seamless video playback across different devices and network conditions.',
-          solution: 'Implemented adaptive bitrate streaming support and custom caching strategies.',
-          result: 'Reduced buffering times by 30% for mobile users.'
-        }
-      ],
-      gallery: [
-        'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop'
-      ],
-      results: [
-        { metric: 'Active Students', value: '10k+' },
-        { metric: 'Course Completion', value: '+15%' },
-      ],
-      lessonsLearned: [
-        'Integrating with third-party payment providers like Stripe.',
-        'Building highly accessible custom video controls.'
-      ]
-    }
-  },
+  // {
+  //   id: 'proj-2',
+  //   slug: 'e-learning-platform',
+  //   title: 'E-learning Platform',
+  //   description: 'A comprehensive online learning platform featuring video courses, interactive quizzes, and real-time progress tracking.',
+  //   technologies: ['Next.js', 'TypeScript', 'Prisma', 'Stripe', 'Framer Motion'],
+  //   imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop',
+  //   liveUrl: '#',
+  //   githubUrl: '#',
+  //   details: {
+  //     slug: 'e-learning-platform',
+  //     category: 'EdTech Web Application',
+  //     duration: '4 Months',
+  //     role: 'Senior Frontend Developer',
+  //     status: 'Completed',
+  //     overview: {
+  //       problem: 'The client needed a modern, scalable platform to host their educational content and manage student progress.',
+  //       requirements: ['Video streaming integration', 'Progress tracking and quiz engine', 'Payment gateway integration'],
+  //       goals: ['Launch minimum viable product in 4 months', 'Support up to 5k concurrent users', 'Ensure High Accessibility (WCAG 2.1)'],
+  //       scope: 'Frontend development, UI/UX implementation, checkout flow, and video player customization.',
+  //     },
+  //     contributions: [
+  //       'UI Development',
+  //       'API Integration',
+  //       'State Management',
+  //       'Accessible Design'
+  //     ],
+  //     techStackCategories: [
+  //       { title: 'Frontend', technologies: ['Next.js', 'React.js', 'TypeScript'] },
+  //       { title: 'State Management', technologies: ['React Query', 'Zustand'] },
+  //       { title: 'UI Libraries', technologies: ['Tailwind CSS', 'Radix UI'] },
+  //       { title: 'Tools', technologies: ['Stripe', 'Vercel'] }
+  //     ],
+  //     features: [
+  //       { title: 'Course Player', description: 'Custom video player with bookmarking and speed controls.' },
+  //       { title: 'Interactive Quizzes', description: 'Real-time grading and detailed feedback.' },
+  //       { title: 'Student Dashboard', description: 'Analytics on learning progress and certificiations.' },
+  //     ],
+  //     challenges: [
+  //       {
+  //         challenge: 'Ensuring seamless video playback across different devices and network conditions.',
+  //         solution: 'Implemented adaptive bitrate streaming support and custom caching strategies.',
+  //         result: 'Reduced buffering times by 30% for mobile users.'
+  //       }
+  //     ],
+  //     gallery: [
+  //       'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop',
+  //       'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop'
+  //     ],
+  //     results: [
+  //       { metric: 'Active Students', value: '10k+' },
+  //       { metric: 'Course Completion', value: '+15%' },
+  //     ],
+  //     lessonsLearned: [
+  //       'Integrating with third-party payment providers like Stripe.',
+  //       'Building highly accessible custom video controls.'
+  //     ]
+  //   }
+  // },
   // {
   //   id: 'proj-3',
   //   slug: 'finance-tracker-mobile',
