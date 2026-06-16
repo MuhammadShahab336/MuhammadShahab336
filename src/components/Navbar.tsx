@@ -38,10 +38,10 @@ export default function Navbar() {
 
         {/* Socials & Resume - Desktop */}
         <div className="hidden md:flex items-center gap-4">
-          <a href="#" className="p-2 text-slate-400 hover:text-blue-400 transition-colors">
+          <a href="http://github.com/MuhammadShahab336" target="_blank" className="p-2 text-slate-400 hover:text-blue-400 transition-colors">
             <Github className="w-5 h-5" />
           </a>
-          <a href="#" className="p-2 text-slate-400 hover:text-blue-400 transition-colors">
+          <a href="http://linkedin.com/in/themuhammadshahab" target="_blank" className="p-2 text-slate-400 hover:text-blue-400 transition-colors">
             <Linkedin className="w-5 h-5" />
           </a>
           <Link to="/#contact" className="px-5 py-2.5 text-sm font-medium bg-blue-500/10 text-blue-400 border border-blue-500/30 rounded-full hover:bg-blue-500/20 transition-all">

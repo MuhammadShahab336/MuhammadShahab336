@@ -42,7 +42,7 @@ export default function Contact() {
                 <div>
                   <h4 className="text-sm text-slate-400 mb-1">Email</h4>
                   <a href="mailto:shahaby47@gmail.com" className="text-lg font-medium text-white hover:text-blue-400 transition-colors">
-                    shahaby47@gmail.com
+                    shahab652@outlook.com
                   </a>
                 </div>
               </div>

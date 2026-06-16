@@ -31,13 +31,13 @@ export default function Footer() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <a href="#" className="p-2 bg-slate-900 border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-slate-700 transition-all">
+          <a href="http://github.com/MuhammadShahab336" target="_blank" className="p-2 bg-slate-900 border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-slate-700 transition-all">
             <Github className="w-5 h-5" />
           </a>
-          <a href="#" className="p-2 bg-slate-900 border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-slate-700 transition-all">
+          <a href="http://linkedin.com/in/themuhammadshahab" target="_blank" className="p-2 bg-slate-900 border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-slate-700 transition-all">
             <Linkedin className="w-5 h-5" />
           </a>
-          <a href="mailto:shahaby47@gmail.com" className="p-2 bg-slate-900 border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-slate-700 transition-all">
+          <a href="mailto:shahab652@outlook.com" className="p-2 bg-slate-900 border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-slate-700 transition-all">
             <Mail className="w-5 h-5" />
           </a>
         </div>
