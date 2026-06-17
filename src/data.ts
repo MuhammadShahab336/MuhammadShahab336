@@ -191,65 +191,94 @@ export const PROJECTS: Project[] = [
       ]
     }
   },
-  // {
-  //   id: 'proj-2',
-  //   slug: 'e-learning-platform',
-  //   title: 'E-learning Platform',
-  //   description: 'A comprehensive online learning platform featuring video courses, interactive quizzes, and real-time progress tracking.',
-  //   technologies: ['Next.js', 'TypeScript', 'Prisma', 'Stripe', 'Framer Motion'],
-  //   imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop',
-  //   liveUrl: '#',
-  //   githubUrl: '#',
-  //   details: {
-  //     slug: 'e-learning-platform',
-  //     category: 'EdTech Web Application',
-  //     duration: '4 Months',
-  //     role: 'Senior Frontend Developer',
-  //     status: 'Completed',
-  //     overview: {
-  //       problem: 'The client needed a modern, scalable platform to host their educational content and manage student progress.',
-  //       requirements: ['Video streaming integration', 'Progress tracking and quiz engine', 'Payment gateway integration'],
-  //       goals: ['Launch minimum viable product in 4 months', 'Support up to 5k concurrent users', 'Ensure High Accessibility (WCAG 2.1)'],
-  //       scope: 'Frontend development, UI/UX implementation, checkout flow, and video player customization.',
-  //     },
-  //     contributions: [
-  //       'UI Development',
-  //       'API Integration',
-  //       'State Management',
-  //       'Accessible Design'
-  //     ],
-  //     techStackCategories: [
-  //       { title: 'Frontend', technologies: ['Next.js', 'React.js', 'TypeScript'] },
-  //       { title: 'State Management', technologies: ['React Query', 'Zustand'] },
-  //       { title: 'UI Libraries', technologies: ['Tailwind CSS', 'Radix UI'] },
-  //       { title: 'Tools', technologies: ['Stripe', 'Vercel'] }
-  //     ],
-  //     features: [
-  //       { title: 'Course Player', description: 'Custom video player with bookmarking and speed controls.' },
-  //       { title: 'Interactive Quizzes', description: 'Real-time grading and detailed feedback.' },
-  //       { title: 'Student Dashboard', description: 'Analytics on learning progress and certificiations.' },
-  //     ],
-  //     challenges: [
-  //       {
-  //         challenge: 'Ensuring seamless video playback across different devices and network conditions.',
-  //         solution: 'Implemented adaptive bitrate streaming support and custom caching strategies.',
-  //         result: 'Reduced buffering times by 30% for mobile users.'
-  //       }
-  //     ],
-  //     gallery: [
-  //       'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop',
-  //       'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop'
-  //     ],
-  //     results: [
-  //       { metric: 'Active Students', value: '10k+' },
-  //       { metric: 'Course Completion', value: '+15%' },
-  //     ],
-  //     lessonsLearned: [
-  //       'Integrating with third-party payment providers like Stripe.',
-  //       'Building highly accessible custom video controls.'
-  //     ]
-  //   }
-  // },
+  {
+    id: 'proj-2',
+    slug: 'e-learning-platform',
+    title: 'E-Learning & Virtual Training Platform',
+    description: 'A modern online learning platform that enables students to enroll in courses, attend live virtual classes, interact with instructors, and track learning progress through a dashboard.',
+    technologies: ['Next.js', 'Prisma', 'Braintree', 'React Query', 'Amazon IVS Player SDK'],
+    imageUrl: '/images/home-page.png',
+    liveUrl: 'https://platform.floridaonlinesecuritytraining.com',
+    githubUrl: '#',
+    details: {
+      slug: 'e-learning-platform',
+      category: 'EdTech Web Application',
+      duration: '4 Months',
+      role: 'Senior Frontend Developer',
+      status: 'Completed',
+      overview: {
+        problem: 'The client needed a scalable digital learning platform that could deliver self-paced courses, live virtual training sessions, and instructor-led programs while providing a seamless learning experience across desktop and mobile devices.',
+        requirements: [
+          'Course catalog with advanced search and filtering', 
+          'Instructor management and profile pages', 
+          'Student dashboard with enrolled courses and upcoming classes',
+          'Virtual classroom integration for live sessions',
+          'Progress tracking and course completion certificates',
+          'Authentication only for students',
+          'Mobile-friendly and accessible user experience'
+        ],
+        goals: [
+          'Deliver a scalable learning experience for thousands of students', 
+          'Increase student engagement through live virtual classes',
+          'Provide real-time visibility into learning progress',
+          'Maintain WCAG 2.1 accessibility standards',
+          'Optimize performance across web and mobile devices'
+        ],
+        scope: 'Frontend architecture, responsive UI development, dashboard implementation, virtual classroom integration, course management workflows, and learning progress tracking.',
+      },
+      contributions: [
+        'Frontend Development',
+        'Dashboard Implementation',
+        'API Integration',
+        'Performance Optimization',
+        'Accessibility',
+        'Video Streaming Integration'
+      ],
+      techStackCategories: [
+        { title: 'Frontend', technologies: ['Next.js', 'NextAuth.js'] },
+        { title: 'State Management', technologies: ['React Query'] },
+        { title: 'UI Libraries', technologies: ['Tailwind CSS', 'Amazon IVS Player SDK'] },
+        { title: 'Tools', technologies: ['Braintree', 'Vercel'] }
+      ],
+      features: [
+        { title: 'Live Virtual Classes', description: 'Integrated Amazon IVS Player for low-latency live video streaming, enabling students to attend instructor-led virtual classes directly within the platform.' },
+        { title: 'Upcoming Classes', description: 'Students can view scheduled live sessions and join classes from their dashboard' },
+        { title: 'Student Dashboard', description: 'Personalized dashboard showing active courses, learning progress, certificates, and upcoming classes.' },
+        { title: 'Progress Tracking', description: 'Track course completion status, completed lessons, quiz results, and certifications.' },
+        { title: 'Authentication', description: 'Secure login using nextauth.js only for Students.' },
+      ],
+      challenges: [
+        {
+          challenge: 'Ensuring stable low-latency live streaming while providing a seamless user experience across different browsers and devices.',
+          solution: 'Integrated Amazon IVS Player SDK with custom event listeners, loading states, error handling, and adaptive playback strategies to improve stream reliability.',
+          result: 'Improved live class engagement through low-latency streaming, Reduced stream interruption issues with enhanced error handling, Delivered a consistent viewing experience across desktop and mobile platforms.'
+        },
+        {
+          challenge: 'Rendering thousands of chat messages during live classes without impacting application performance.',
+          solution: 'Implemented message virtualization using @tanstack/react-virtual, ensuring only visible messages were rendered while preserving smooth scrolling and responsiveness.',
+          result: 'Significantly reduced rendering overhead and delivered a scalable real-time chat experience for virtual classrooms.'
+        }
+      ],
+      gallery: [
+        '/images/home-page.png',
+        '/images/instructor-page.png',
+        '/images/dashboard-page.png',
+        '/images/certificate-page.png',
+        '/images/exam-page.png',
+        '/images/virtual-class-meeting.png',
+        '/images/vitual-class.png'
+      ],
+      results: [
+        { metric: 'Faster Chat Rendering Performance', value: '30%' },
+        { metric: 'Reduction in Unnecessary API Requests', value: '40%' },
+        { metric: 'Virtual Classroom Uptime', value: '99.9%' },
+      ],
+      lessonsLearned: [
+        'Integrating with third-party payment providers like Stripe.',
+        'Building highly accessible custom video controls.'
+      ]
+    }
+  },
   // {
   //   id: 'proj-3',
   //   slug: 'finance-tracker-mobile',

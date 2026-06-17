@@ -304,7 +304,7 @@ export default function ProjectDetail() {
       </section>
 
       {/* 11. Lessons Learned */}
-      <section className="py-16 md:py-24 px-6 md:px-12 bg-blue-900/5 border-y border-blue-900/20">
+      {/* <section className="py-16 md:py-24 px-6 md:px-12 bg-blue-900/5 border-y border-blue-900/20">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-display font-bold text-white mb-8">Lessons Learned</h2>
           <div className="space-y-4">
@@ -315,7 +315,7 @@ export default function ProjectDetail() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 12. Related Projects */}
       <section className="py-24 px-6 md:px-12 bg-slate-900/50">

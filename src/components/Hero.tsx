@@ -75,9 +75,9 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="flex items-center justify-center gap-6 pt-12 text-slate-400"
         >
-          <a href="#" className="hover:text-blue-400 transition-colors p-2"><Github className="w-7 h-7" /></a>
-          <a href="#" className="hover:text-blue-400 transition-colors p-2"><Linkedin className="w-7 h-7" /></a>
-          <a href="mailto:shahaby47@gmail.com" className="hover:text-blue-400 transition-colors p-2"><Mail className="w-7 h-7" /></a>
+          <a href="http://github.com/MuhammadShahab336" target="_blank" className="hover:text-blue-400 transition-colors p-2"><Github className="w-7 h-7" /></a>
+          <a href="http://linkedin.com/in/themuhammadshahab" target="_blank" className="hover:text-blue-400 transition-colors p-2"><Linkedin className="w-7 h-7" /></a>
+          <a href="mailto:shahab652@outlook.com" className="hover:text-blue-400 transition-colors p-2"><Mail className="w-7 h-7" /></a>
         </motion.div>
       </div>
     </section>
