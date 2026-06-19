@@ -39,41 +39,59 @@ export const EXPERIENCES: Experience[] = [
     company: 'Coderchaps',
     period: 'Dec 2025 - Present',
     responsibilities: [
-      'Led frontend development of a comprehensive online training platform serving administrators, instructors, and students.',
-      'Developed feature-rich modules including course management, virtual classrooms, support ticket systems, financial dashboards, and reporting tools.',
-      'Integrated Zoom Video SDK and Firebase to deliver real-time communication and interactive learning experiences.',
-      'Built scalable and reusable component libraries that accelerated feature development and improved maintainability.',
-      'Enhanced application performance and user experience through optimized rendering, API handling, and state management strategies.',
-      'Converted complex business requirements into intuitive, responsive, and accessible user interfaces.',
-      'Collaborated cross-functionally with designers, backend engineers, and stakeholders to successfully deliver new product features.',
-      'Mentored team members through code reviews and knowledge sharing while promoting frontend best practices.'
+      'Led frontend development of a large-scale training platform serving 2,000+ active users using React.js and Next.js.',
+      'Improved application performance by 40% using Next.js SSR and optimized data fetching strategies.',
+      'Reduced redundant API requests by 35% through TanStack React Query caching and server-state management.',
+      'Integrated Amazon IVS, Firebase, and Zoom Video SDK to support 500+ concurrent viewers across live training sessions.',
+      'Built and scaled core modules including course management, virtual classrooms, ticketing systems, dashboards, and reporting tools.',
+      'Reduced feature development time by 25% through reusable TypeScript-based component architecture.',
+      'Collaborated with designers, backend engineers, and stakeholders to deliver multiple production releases on schedule.',
+      'Mentored junior developers through code reviews and architectural guidance, reducing frontend defects by 20%.'
     ],
-    technologies: ['React.js (Vite)', 'Redux Toolkit', 'React Query', 'Ant Design', 'Firebase', 'Zoom Video SDK', 'Zoom Video SDK UI Toolkit', 'REST APIs', 'Git'],
+    technologies: ['React.js (Vite)', 'Next.js', 'NextAuth', 'Redux Toolkit', 'React Query', 'Ant Design', 'Firebase', 'Zoom Video SDK UI Toolkit', 'Amazon IVS', 'REST APIs'],
   },
   {
     id: 'exp-2',
-    role: 'Frontend Developer',
-    company: 'Digital Solutions Inc.',
-    period: '2021 - 2023',
+    role: 'Web Developer',
+    company: 'O3 Interfaces',
+    period: 'Sep 2024 – Dec 2025',
     responsibilities: [
-      'Developed responsive single-page applications focused on data visualization.',
-      'Integrated RESTful APIs and managed complex application state using Redux Toolkit.',
-      'Implemented robust CI/CD pipelines to automate testing and deployment processes.',
-      'Optimized application performance through code splitting and lazy loading.'
+      'Built and maintained the UBL website using Next.js, Tailwind CSS, and Directus CMS.',
+      'Reduced content publishing time by 40% through implementation of a headless CMS architecture.',
+      'Developed high-performance ATM interface screens using HTML, CSS, and JavaScript.',
+      'Collaborated with cross-functional teams to deliver scalable frontend solutions and improve release efficiency.'
     ],
-    technologies: ['React', 'JavaScript', 'Redux Toolkit', 'Material UI', 'Jest'],
+    technologies: ['Next.js', 'JavaScript', 'TailwindCss', 'Directus CMS',],
   },
   {
     id: 'exp-3',
-    role: 'Junior Frontend Developer',
-    company: 'WebCraft Agency',
-    period: '2020 - 2021',
+    role: 'Senior Frontend Developer',
+    company: 'Technottix',
+    period: 'Sep 2020 – Aug 2024',
     responsibilities: [
-      'Built pixel-perfect UI components from Figma designs.',
-      'Maintained and added features to existing client projects.',
-      'Participated in daily stand-ups and agile sprint planning sessions.'
+      'Developed scalable React.js and Next.js applications as part of a frontend engineering team.',
+      'Improved page load performance by 30% using code splitting, lazy loading, memoization, and rendering optimizations.',
+      'Implemented state management solutions using Redux and Context API.',
+      'Built reusable component libraries that reduced development time by 25%.',
+      'Implemented React Query and RTK Query, reducing redundant API calls and improving application responsiveness.',
+      'Developed complex form workflows using React Hook Form and Ant Design Forms.',
+      'Established frontend development standards and architectural best practices.',
+      'Mentored junior engineers and conducted code reviews to improve code quality and maintainability.'
     ],
-    technologies: ['React', 'JavaScript', 'HTML/CSS', 'Ant Design'],
+    technologies: ['React.js', 'Next.js', 'JavaScript', 'HTML/CSS', 'React Bootstrap', 'React Query', 'Redux Toolkit'],
+  },
+  {
+    id: 'exp-4',
+    role: 'Junior Frontend Developer',
+    company: 'CFE Solutions',
+    period: 'Dec 2022 – Dec 2023',
+    responsibilities: [
+      'Developed core SmartFolder application features using React.js, Redux, and Ant Design.',
+      'Integrated REST APIs and optimized asynchronous data handling using Redux Toolkit.',
+      'Built responsive, cross-browser compatible interfaces and reusable UI components.',
+      'Implemented complex form workflows and validation systems to improve data accuracy.'
+    ],
+    technologies: ['React', 'JavaScript', 'HTML/CSS', 'Ant Design', 'Redux', 'createAsyncThunk'],
   },
 ];
 
