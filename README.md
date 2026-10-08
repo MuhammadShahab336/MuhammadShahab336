@@ -110,6 +110,20 @@ Interactive web application built with modern frontend technologies where we rea
 
 ---
 
+### 🚨 NFT Web App
+
+Interactive NFP web application built with modern frontend technologies.
+
+**Tech Stack**
+
+`Next.js` `React Bootstrap` `Framer Motion`
+
+<a href="https://github.com/MuhammadShahab336/nft-web-app">
+  <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+---
+
 ### 💬 Authentication Flow
 
 Web api's for authentication flow.
