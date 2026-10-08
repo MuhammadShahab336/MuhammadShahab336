@@ -1,20 +1,219 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+<h1 align="center">Hi 👋, I'm Usman Ali</h1>
 
-# Run and deploy your AI Studio app
+<h3 align="center">
+  Full-Stack Web Developer | React • Next.js • TypeScript • PHP • Laravel • WordPress
+</h3>
 
-This contains everything you need to run your app locally.
+<p align="center">
+  I build modern, responsive, high-performance web applications and scalable digital experiences.
+</p>
 
-View your app in AI Studio: https://ai.studio/apps/116b3dbf-7de8-4abd-a34e-bcf1d17bccb2
+<p align="center">
+  <a href="https://imusmanali.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/usman-ali-572453177/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/Imusmanali44">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 👨‍💻 About Me
 
+I'm a **Full-Stack Web Developer with 7+ years of experience** building responsive websites, web applications, custom CMS solutions, and modern user interfaces.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+I enjoy turning ideas and designs into fast, scalable, and user-friendly digital products.
+
+- 💻 Full-Stack Web Developer
+- ⚛️ Building applications with **React, Next.js & TypeScript**
+- 🐘 Backend development with **PHP, Laravel & Yii**
+- 🌐 Experienced with **WordPress development & customization**
+- 🎨 Building responsive interfaces with **Tailwind CSS**
+- ⚡ Focused on **performance, Core Web Vitals & clean code**
+- 🔌 Experienced with **REST APIs & third-party integrations**
+- 🚀 Interested in modern development and DevOps workflows
+- 🤝 Open to **remote, freelance & long-term opportunities**
+
+---
+
+## 🛠️ Tech Stack
+
+### 🎨 Frontend
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vue,jquery" />
+</p>
+
+**HTML5 • CSS3 • JavaScript • TypeScript • React • Next.js • Tailwind CSS • Vue.js • jQuery**
+
+### ⚙️ Backend
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=php,laravel,mysql" />
+</p>
+
+**PHP • Laravel • Yii • MySQL • REST APIs**
+
+### 🌐 CMS
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=wordpress" />
+</p>
+
+**WordPress • Theme Customization • Custom Development**
+
+### 🔧 Tools & Workflow
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,netlify,npm,vite" />
+</p>
+
+**Git • GitHub • VS Code • Figma • Netlify • NPM • Vite**
+
+---
+
+## 🚀 Featured Projects
+
+### 💼 Usman Ali — Developer Portfolio
+
+My personal developer portfolio showcasing my experience, skills, projects, and services.
+
+**Tech Stack**
+
+`Next.js` `React` `TypeScript` `Tailwind CSS` `Netlify`
+
+<a href="https://imusmanali.netlify.app/">
+  <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Website-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+</a>
+
+<a href="https://github.com/Imusmanali44/usman-ali-portfolio">
+  <img src="https://img.shields.io/badge/Source%20Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+---
+
+### 🚨 Coin Siren App
+
+Interactive web application built with modern frontend technologies and animations.
+
+**Tech Stack**
+
+`Next.js` `React` `TypeScript` `Tailwind CSS` `Framer Motion` `Swiper`
+
+<a href="https://github.com/Imusmanali44/coin-siren-app">
+  <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+---
+
+### 💬 Product Feedback Tool
+
+Web application for managing and organizing product feedback.
+
+**Tech Stack**
+
+`React` `Vite` `Firebase` `React Router`
+
+<a href="https://github.com/Imusmanali44/product-feedback-tool">
+  <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+---
+
+### 💳 Payment Gateway UI
+
+Responsive payment interface built using React and Bootstrap.
+
+**Tech Stack**
+
+`React` `Vite` `Bootstrap` `React Router`
+
+<a href="https://github.com/Imusmanali44/payment-gateway">
+  <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Imusmanali44&theme=github_dark"
+    height="170"
+    alt="Usman Ali GitHub Stats"
+  />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Imusmanali44&theme=github_dark"
+    height="170"
+    alt="Most Used Languages"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Imusmanali44&theme=github_dark"
+    alt="Usman Ali GitHub Profile Summary"
+  />
+</p>
+
+---
+
+## 🔥 GitHub Streak
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=Imusmanali44&theme=github-dark-blue&hide_border=true"
+    alt="Usman Ali GitHub Streak"
+  />
+</p>
+
+---
+
+## 💡 What I Can Help With
+
+- ⚛️ React & Next.js Web Applications
+- 🎨 Responsive Frontend Development
+- 🐘 PHP & Laravel Development
+- 🌐 WordPress Development & Customization
+- 🔌 REST API Integration
+- 💳 Payment Gateway Integration
+- ⚡ Website Performance Optimization
+- 📱 Mobile Responsive Development
+- 🔧 Existing Website Maintenance & Improvements
+- 🚀 Deployment & Production Setup
+
+---
+
+## 📫 Let's Connect
+
+I'm always interested in discussing interesting projects, freelance opportunities, remote roles, and long-term collaborations.
+
+<p align="center">
+
+<a href="https://imusmanali.netlify.app/">
+  <img src="https://img.shields.io/badge/Portfolio-Visit%20My%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/usman-ali-572453177/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect%20With%20Me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://github.com/Imusmanali44">
+  <img src="https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</p>
+
+---
+
+<p align="center">
+  <b>💻 Building clean, scalable & user-focused web experiences.</b>
+</p>
+
+<p align="center">
+  Thanks for visiting my profile! 👋
+</p>
