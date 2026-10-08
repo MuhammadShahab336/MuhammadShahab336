@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm Usman Ali</h1>
+<h1 align="center">Hi 👋, I'm Muhammad Shahab</h1>
 
 <h3 align="center">
-  Full-Stack Web Developer | React • Next.js • TypeScript • PHP • Laravel • WordPress
+  Senior Frontend Engineer | React • Next.js, ReactNative • TypeScript • Node.js • Express • Mysql
 </h3>
 
 <p align="center">
@@ -9,13 +9,13 @@
 </p>
 
 <p align="center">
-  <a href="https://imusmanali.netlify.app/">
+  <a href="https://muhammadshahab.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
-  <a href="https://www.linkedin.com/in/usman-ali-572453177/">
+  <a href="https://www.linkedin.com/in/themuhammadshahab">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/Imusmanali44">
+  <a href="https://github.com/MuhammadShahab336">
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
@@ -24,19 +24,19 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Full-Stack Web Developer with 7+ years of experience** building responsive websites, web applications, custom CMS solutions, and modern user interfaces.
+I'm a **Senior Frontend Engineer with 4+ years of experience** building responsive websites, web applications, custom CMS solutions, and modern user interfaces.
 
 I enjoy turning ideas and designs into fast, scalable, and user-friendly digital products.
 
-- 💻 Full-Stack Web Developer
+- 💻 Senior Frontend Engineer
 - ⚛️ Building applications with **React, Next.js & TypeScript**
-- 🐘 Backend development with **PHP, Laravel & Yii**
-- 🌐 Experienced with **WordPress development & customization**
+- 🐘 Backend development with **Node.js, Express, Prisma & Mysql**
+- 🌐 Experienced with **ReactNative development**
 - 🎨 Building responsive interfaces with **Tailwind CSS**
 - ⚡ Focused on **performance, Core Web Vitals & clean code**
 - 🔌 Experienced with **REST APIs & third-party integrations**
 - 🚀 Interested in modern development and DevOps workflows
-- 🤝 Open to **remote, freelance & long-term opportunities**
+- 🤝 Open to **remote, on-site & long-term opportunities**
 
 ---
 
@@ -48,31 +48,31 @@ I enjoy turning ideas and designs into fast, scalable, and user-friendly digital
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vue,jquery" />
 </p>
 
-**HTML5 • CSS3 • JavaScript • TypeScript • React • Next.js • Tailwind CSS • Vue.js • jQuery**
+**HTML5 • CSS3 • JavaScript • TypeScript • React • Next.js • Tailwind CSS**
 
 ### ⚙️ Backend
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=php,laravel,mysql" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,prisma,mysql" />
 </p>
 
-**PHP • Laravel • Yii • MySQL • REST APIs**
+**Node.js • Express • Prisma • MySQL • REST APIs**
 
-### 🌐 CMS
+### 🌐 Headless CMS
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=wordpress" />
+  <img src="https://skillicons.dev/icons?i=directus" />
 </p>
 
-**WordPress • Theme Customization • Custom Development**
+**Directus • Headless CMS • API Development • Database Management • Custom Extensions**
 
 ### 🔧 Tools & Workflow
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,netlify,npm,vite" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,npm,vite" />
 </p>
 
-**Git • GitHub • VS Code • Figma • Netlify • NPM • Vite**
+**Git • GitHub • VS Code • Figma • NPM • Vite**
 
 ---
 
