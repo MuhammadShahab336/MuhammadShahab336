@@ -61,7 +61,7 @@ I enjoy turning ideas and designs into fast, scalable, and user-friendly digital
 ### 🌐 Headless CMS
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=directus" />
+  <img src="https://skillicons.dev/icons?i=directus," />
 </p>
 
 **Directus • Headless CMS • API Development • Database Management • Custom Extensions**
@@ -78,7 +78,7 @@ I enjoy turning ideas and designs into fast, scalable, and user-friendly digital
 
 ## 🚀 Featured Projects
 
-### 💼 Usman Ali — Developer Portfolio
+### 💼 Muhammad Shahab — Developer Portfolio
 
 My personal developer portfolio showcasing my experience, skills, projects, and services.
 
@@ -86,53 +86,39 @@ My personal developer portfolio showcasing my experience, skills, projects, and 
 
 `Next.js` `React` `TypeScript` `Tailwind CSS` `Netlify`
 
-<a href="https://imusmanali.netlify.app/">
+<a href="https://muhammadshahab.vercel.app">
   <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Website-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
 </a>
 
-<a href="https://github.com/Imusmanali44/usman-ali-portfolio">
+<a href="https://github.com/MuhammadShahab336/MuhammadShahab336">
   <img src="https://img.shields.io/badge/Source%20Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 ---
 
-### 🚨 Coin Siren App
+### 🚨 News Web App
 
-Interactive web application built with modern frontend technologies and animations.
+Interactive web application built with modern frontend technologies where we read The latest articles.
 
 **Tech Stack**
 
-`Next.js` `React` `TypeScript` `Tailwind CSS` `Framer Motion` `Swiper`
+`Next.js` `React` `TypeScript` `React Bootstrap` `Redux Toolkit` `RTK Query`
 
-<a href="https://github.com/Imusmanali44/coin-siren-app">
+<a href="https://github.com/MuhammadShahab336/news-website">
   <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 ---
 
-### 💬 Product Feedback Tool
+### 💬 Authentication Flow
 
-Web application for managing and organizing product feedback.
-
-**Tech Stack**
-
-`React` `Vite` `Firebase` `React Router`
-
-<a href="https://github.com/Imusmanali44/product-feedback-tool">
-  <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
----
-
-### 💳 Payment Gateway UI
-
-Responsive payment interface built using React and Bootstrap.
+Web api's for authentication flow.
 
 **Tech Stack**
 
-`React` `Vite` `Bootstrap` `React Router`
+`Node.js` `Express` `Prisma` `Mysql`
 
-<a href="https://github.com/Imusmanali44/payment-gateway">
+<a href="https://github.com/MuhammadShahab336/stock-inventory-system">
   <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
@@ -142,12 +128,12 @@ Responsive payment interface built using React and Bootstrap.
 
 <p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Imusmanali44&theme=github_dark"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MuhammadShahab336&theme=github_dark"
     height="170"
-    alt="Usman Ali GitHub Stats"
+    alt="Muhammad Shahab GitHub Stats"
   />
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Imusmanali44&theme=github_dark"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MuhammadShahab336&theme=github_dark"
     height="170"
     alt="Most Used Languages"
   />
@@ -155,8 +141,8 @@ Responsive payment interface built using React and Bootstrap.
 
 <p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Imusmanali44&theme=github_dark"
-    alt="Usman Ali GitHub Profile Summary"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MuhammadShahab336&theme=github_dark"
+    alt="Muhammad Shahab GitHub Profile Summary"
   />
 </p>
 
@@ -166,8 +152,8 @@ Responsive payment interface built using React and Bootstrap.
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=Imusmanali44&theme=github-dark-blue&hide_border=true"
-    alt="Usman Ali GitHub Streak"
+    src="https://streak-stats.demolab.com?user=MuhammadShahab336&theme=github-dark-blue&hide_border=true"
+    alt="Muhammad Shahab GitHub Streak"
   />
 </p>
 
@@ -175,12 +161,12 @@ Responsive payment interface built using React and Bootstrap.
 
 ## 💡 What I Can Help With
 
-- ⚛️ React & Next.js Web Applications
+- ⚛️ React, Next.js & ReactNative Web/App Applications
 - 🎨 Responsive Frontend Development
-- 🐘 PHP & Laravel Development
-- 🌐 WordPress Development & Customization
+- 🐘 Node.js & Express Development
+- 🌐 Directus (Headless CMS) Api Development & Database Management
 - 🔌 REST API Integration
-- 💳 Payment Gateway Integration
+<!-- - 💳 Payment Gateway Integration -->
 - ⚡ Website Performance Optimization
 - 📱 Mobile Responsive Development
 - 🔧 Existing Website Maintenance & Improvements
@@ -194,15 +180,15 @@ I'm always interested in discussing interesting projects, freelance opportunitie
 
 <p align="center">
 
-<a href="https://imusmanali.netlify.app/">
+<a href="muhammadshahab.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-Visit%20My%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
 
-<a href="https://www.linkedin.com/in/usman-ali-572453177/">
+<a href="https://www.linkedin.com/in/themuhammadshahab/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect%20With%20Me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-<a href="https://github.com/Imusmanali44">
+<a href="https://github.com/MuhammadShahab336">
   <img src="https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
