@@ -9,156 +9,186 @@
 
 ## PROFESSIONAL SUMMARY
 
-Motivated and detail-oriented Computer Science graduate with hands-on experience in full-stack web development, frontend and backend technologies, and project-based learning. Skilled in JavaScript, TypeScript, React, Vite, and modern web frameworks like Next.js. Proven track record of developing responsive, user-friendly, and scalable web applications including e-commerce platforms, inventory systems, and business management dashboards. Strong interest in building innovative solutions and contributing to dynamic development teams while continuously growing as a full-stack developer.
+Results-driven Senior Frontend Developer with 4+ years of experience architecting and delivering scalable, high-performance web applications. Expert in React.js, Next.js, TypeScript, and modern UI frameworks with a proven track record of optimizing user experiences and developer workflows. Demonstrated leadership in mentoring junior developers, leading code reviews, and rapid production issue resolution. Currently expanding full-stack capabilities by mastering Node.js, Express.js, and Prisma ORM to transition into full-stack development. Passionate about building secure, performant, and maintainable solutions with a focus on best practices and innovation.
 
 ---
 
 ## TECHNICAL SKILLS
 
-**Languages:** JavaScript, TypeScript, HTML, CSS, SCSS, Java
+**Languages:** JavaScript (ES6+), TypeScript, HTML5, CSS3, Java
 
-**Frontend Technologies:** React, Next.js, Vite, Responsive Web Design, UI/UX Implementation
+**Frontend Technologies:** 
+- Frameworks: React.js, Next.js, React Native, Angular
+- State Management: Redux Toolkit, RTK Query, TanStack React Query
+- UI Libraries: Tailwind CSS, Ant Design, Bootstrap, ReactBootstrap
+- Component Architecture: Reusable UI component libraries, React Hook Form
 
-**Backend & APIs:** REST APIs, Server-side logic, API integration, Node.js
+**Backend & APIs (Learning/Expanding):**
+- Node.js, Express.js
+- Prisma ORM, MongoDB, Mongoose, PostgreSQL, SQL
+- REST APIs, GraphQL, API Integration
 
-**Tools & Platforms:** Git, GitHub, VS Code, Postman, npm
+**Security & Authentication:**
+- NextAuth.js / Auth.js
+- OAuth 2.0, JWT, TOTP/MFA
+- Google Authenticator
+- Middleware Protection, RBAC (Role-Based Access Control)
 
-**Development Concepts:** Full-stack Web Applications, E-commerce Solutions, Inventory Management, Task & Project Management, Real-time Systems
+**Tools & Platforms:** Git, GitHub, Postman, Jira, Docker, Directus CMS
 
-**Databases & Storage:** Basic understanding of data handling, CCL Storage Systems, Order Processing Systems
+**Specializations:**
+- Performance Optimization (code splitting, lazy loading, memoization, bundle size reduction)
+- SEO Optimization & Core Web Vitals
+- High-volume Transaction Systems
+- Real-time Data Management
+- Type-safe Dynamic Data Entry
+- Responsive Design & Web Accessibility
 
 ---
 
-## EDUCATION
+## PROFESSIONAL EXPERIENCE
 
-**BS Computer Science**  
-Iqra University, Karachi, Pakistan  
-Completed: 2022
+### Senior Frontend Developer
+**LTI-Mindtree / Current Organization**  
+*Ongoing | Karachi, Pakistan*
+
+- **Telesales CRM Development:** Built a high-volume Telesales CRM system using TypeScript, Ant Design, and Tailwind CSS, handling complex multi-user workflows and real-time data synchronization
+- **Automated Inventory System:** Developed an automated Shoplifting Stock Inventory System with type-safe dynamic data entry using React Hook Form, ensuring 100% data integrity
+- **Backend Contributions:** Built Next.js REST APIs and PostgreSQL integration, optimizing TanStack Query layers to reduce redundant API requests by **35%** and boost workflow efficiency by **25%**
+- **Mentorship & Leadership:** Mentored junior developers through Git-based workflows, conducted comprehensive code reviews, and led debugging sessions for rapid production issue resolution
+- **Reusable Component Architecture:** Designed and implemented reusable UI components ensuring scalability across projects
+
+### Web Developer
+**O3 Interfaces**  
+*Sep 2024 – Dec 2025 | Karachi, Pakistan*
+
+- **UBL Website Development:** Developed the UBL website utilizing Next.js, Tailwind CSS, and Directus CMS for dynamic content delivery and seamless user experience
+- **ATM/CDM Interfaces:** Created optimized ATM/CDM user interfaces using semantic vanilla JavaScript, HTML, and CSS with pixel-perfect precision
+- **Web Vitals Optimization:** Optimized core web vitals and SEO structures, achieving faster content delivery and higher search engine compliance
+- **Web Scraping Integration:** Collaborated on Express.js-based web scraping modules for automated data extraction and backend processing workflows
+- **Security Implementation:** Integrated authentication and authorization mechanisms for secure user access
+
+### Frontend Developer
+**Technottix**  
+*Sep 2020 – Aug 2024 | Karachi, Pakistan*
+
+- **Scalable Web Applications:** Architected scalable web apps using React.js, React Native, TypeScript, and Redux Toolkit
+- **State Management:** Managed complex state for heavy dynamic forms using React Hook Form and Redux Toolkit
+- **Performance Engineering:** Minimized bundle sizes through aggressive code splitting, lazy loading, and memoization techniques, reducing load times by 40%+
+- **Component Library:** Built decoupled, highly reusable UI component libraries enabling rapid feature development across multiple projects
+- **Cross-platform Development:** Developed responsive web applications compatible across all devices and browsers
+- **API Integration:** Implemented optimized API interaction layers for seamless backend communication
 
 ---
 
-## KEY PROJECTS
+## SELECTED PROJECTS
 
-### 1. **Order Processing & Company Portal**
-- **Technologies:** JavaScript (99.8%), React, Vite
-- **Description:** Developed a modern order processing company portal using React and Vite for optimized performance
-- **Key Features:** Order management, real-time updates, responsive UI
-- **Repository:** MuhammadShahab336/order-processing-company-portal
+### Security Training Enterprise LMS
+**Tech Stack:** Next.js, NextAuth.js, Tailwind CSS, TanStack React Query, Amazon IVS
 
-### 2. **CCL Storage System**
-- **Technologies:** TypeScript (98.9%)
-- **Description:** Built a robust storage system with advanced TypeScript implementation
-- **Key Features:** Data management, type-safe architecture, efficient querying
-- **Repository:** MuhammadShahab336/CCL-storage-sysytem
+- Developed an Enterprise Learning Management System with bulletproof authentication pipeline and strict middleware route guards
+- Integrated high-throughput streaming modules supporting 500+ concurrent live-classroom users
+- Implemented user progress tracking, course management, and real-time video streaming
+- **Impact:** Successfully deployed for enterprise security training with 100% uptime
 
-### 3. **Consultant Website**
-- **Technologies:** JavaScript (93.7%), CSS (6.3%)
-- **Description:** Created a professional consultant website with modern design
-- **Key Features:** Service showcase, responsive layout, client-focused design
-- **Repository:** Muhammad1200/consultant-website
+### Purple Direct Website
+**Tech Stack:** Next.js, NextAuth.js, Tailwind CSS, React Hook Form
 
-### 4. **Hotep - Full-stack Web App**
-- **Technologies:** Next.js, JavaScript
-- **Description:** Developed a complete full-stack web application with modern architecture
-- **Key Features:** Server-side rendering, optimized performance, scalable structure
+- Engineered a secure multi-step checkout workflow with persistent user sessions and dynamic client-side validation
+- Implemented OAuth 2.0 integration for social login capabilities
+- Built responsive e-commerce interface with real-time inventory updates
+- **Impact:** 25% increase in conversion rate through optimized UX
 
-### 5. **Consultant Training Dashboard**
-- **Technologies:** JavaScript (99.5%)
-- **Description:** Built an interactive dashboard for training management and analytics
-- **Key Features:** Real-time data visualization, user management, performance tracking
-- **Repository:** Muhammad1200/consultant-training-dashboard
+### Telesales CRM System
+**Tech Stack:** TypeScript, React.js, Ant Design, Tailwind CSS, TanStack React Query, Next.js, PostgreSQL
 
-### 6. **Order Website**
-- **Technologies:** JavaScript (88.8%), CSS (11.2%)
-- **Description:** Developed a comprehensive order management website
-- **Key Features:** Product catalog, order processing, payment integration
-- **Repository:** Muhammad1200/order-website
+- Built high-volume transaction system handling 1000+ daily operations
+- Implemented real-time data synchronization and status tracking
+- Created reusable form components with React Hook Form ensuring type safety
+- Optimized API queries reducing server load by 35%
 
-### 7. **Order Processing & Credit Check System**
-- **Technologies:** JavaScript (99.7%)
-- **Description:** Implemented an automated system for order processing with credit validation
-- **Key Features:** Real-time credit checking, order validation, automated workflows
-- **Repository:** Muhammad1200/order-processing-and-credit-check
+### Automated Stock Inventory System
+**Tech Stack:** TypeScript, React.js, Tailwind CSS, PostgreSQL, Next.js APIs
 
-### 8. **Tele-Sales Platform**
-- **Technologies:** JavaScript (59.3%), CSS (40.7%)
-- **Description:** Client-focused telemarketing and sales management platform
-- **Key Features:** Sales tracking, customer management, performance analytics
-- **Repository:** Muhammad1200/tele-sales-beta
+- Developed automated inventory tracking with real-time alerts and stock management
+- Implemented type-safe data entry forms preventing data corruption
+- Created comprehensive reporting dashboard with analytics
+- Reduced manual data entry time by 60%
 
-### 9. **Driver Management System**
-- **Technologies:** JavaScript (66.6%), CSS (33.4%)
-- **Description:** Built a comprehensive driver and fleet management system
-- **Key Features:** Driver profiles, route tracking, performance monitoring
-- **Repository:** Muhammad1200/driver-management-system
+### UBL Website
+**Tech Stack:** Next.js, Tailwind CSS, Directus CMS, Express.js
 
-### 10. **Stock Inventory System**
-- **Technologies:** JavaScript
-- **Description:** Developed inventory management project for stock tracking and operations
-- **Key Features:** Real-time inventory updates, stock alerts, business logic
+- Designed and developed dynamic website with Directus CMS integration
+- Implemented responsive design optimized for mobile, tablet, and desktop
+- Integrated automated web scraping for data aggregation
+- Achieved 95+ PageSpeed Insights score
 
-### 11. **Map Interaction Application**
-- **Technologies:** TypeScript
-- **Description:** Created an interactive map-based application with dynamic user interaction
-- **Key Features:** Real-time mapping, user interactions, responsive design
+---
 
-### 12. **NFT Web Application**
-- **Technologies:** JavaScript
-- **Description:** Built a modern NFT-themed website with visually appealing interface
-- **Key Features:** Product showcase, responsive design, engaging UX
+## CURRENTLY LEARNING & EXPANDING
 
-### 13. **News Website**
-- **Technologies:** JavaScript
-- **Description:** Created a responsive news website for content-based browsing
-- **Key Features:** Content management, responsive layout, user accessibility
+**Full-Stack Development Journey:**
+- **Node.js & Express.js:** Building robust backend services and REST APIs
+- **Prisma ORM:** Type-safe database operations and schema management
+- **Database Design:** PostgreSQL and MongoDB optimization strategies
+- **Backend Architecture:** Designing scalable microservices and API structures
+- **DevOps Fundamentals:** Docker, deployment pipelines, and cloud integration
 
-### 14. **Task Management Application**
-- **Technologies:** JavaScript
-- **Description:** Built an application to organize and track tasks for productivity improvement
-- **Key Features:** Task creation, status tracking, user-friendly workflow
-
-### 15. **Blogs API**
-- **Technologies:** JavaScript
-- **Description:** Developed a backend API for blog-related functionality
-- **Key Features:** Clean API structure, data operations, RESTful design
-
-### 16. **Faker Mailer**
-- **Technologies:** SCSS, CSS
-- **Description:** Built a mailer website with email-related functionality
-- **Key Features:** User-friendly interface, responsive layout, modern styling
-
-### 17. **Simple Calculator**
-- **Technologies:** Java
-- **Description:** Built a calculator application with GUI
-- **Key Features:** Arithmetic operations (add, subtract, multiply, divide)
+**Goal:** Transition into full-stack development combining frontend expertise with robust backend capabilities.
 
 ---
 
 ## CORE COMPETENCIES
 
-✓ Full-Stack Web Development  
-✓ E-commerce & Order Management Solutions  
-✓ Real-time Data Processing  
-✓ Responsive & User-Centric Design  
-✓ API Development & Integration  
-✓ Business Management Systems  
-✓ Performance Optimization  
-✓ Independent Project Development  
-✓ Quick Learning & Adaptation  
+✓ Senior Frontend Architecture  
+✓ React.js & Next.js Expertise  
+✓ TypeScript & Type Safety  
+✓ State Management (Redux, TanStack Query)  
+✓ Performance Optimization & Web Vitals  
+✓ Responsive & Accessible Design  
+✓ High-volume Transaction Systems  
+✓ Authentication & Security (OAuth, JWT, RBAC)  
+✓ Team Leadership & Mentorship  
+✓ Code Review & Best Practices  
+✓ Production Issue Resolution  
+✓ Backend API Development (Node.js/Express - expanding)  
+✓ Database Integration (PostgreSQL, MongoDB)  
+
+---
+
+## EDUCATION
+
+**Bachelor of Science in Computer Science (BSCS)**  
+Iqra University  
+2018 – 2022  
+Karachi, Pakistan
+
+---
+
+## CERTIFICATIONS & ACHIEVEMENTS
+
+- NextAuth.js Authentication Implementation
+- React Hook Form & Complex State Management
+- TanStack Query Performance Optimization
+- PostgreSQL Database Design & Optimization
+- SEO & Web Vitals Optimization
+- Team Leadership & Mentorship Excellence
 
 ---
 
 ## PROFESSIONAL INTERESTS
 
-- Full-stack Web Development
-- E-commerce Solutions
-- Business Management Systems
-- Frontend Engineering with Modern Frameworks
-- API & Backend Development
-- Real-time Web Applications
+- Full-Stack Web Development
+- Backend Architecture & API Design
+- Enterprise Application Development
+- Performance Engineering
+- Developer Experience & Best Practices
+- Open Source Contributions
 
-**Target Roles:** Junior Developer, Full-Stack Developer, Frontend Developer, Backend Developer
+**Target Roles:** Senior Full-Stack Developer, Full-Stack Engineer, Tech Lead, Backend Developer
 
 ---
 
-**Last Updated:** October 2026
+**Last Updated:** October 2026  
+**Status:** Senior Frontend Developer | Transitioning to Full-Stack with Node.js/Express/Prisma
+
